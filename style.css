@@ -62,14 +62,47 @@ About
 }
 
 p {
-    font-family: cursive;
-    text-align: center;
+    font-size: 14px;
 }
 
-.bi-github {
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: black !important;
+}
+
+#about .icons {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a {
     color: black;
 }
 
-.bi-linkedin {
-    color: blue;
+
+/****************************************************************
+
+project
+*/
+
+#projects {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card img {
+    width: 100%;
+}
+
+#projects .card-title {
+    font-weight: bold;
 }
